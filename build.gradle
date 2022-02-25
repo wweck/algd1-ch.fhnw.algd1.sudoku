@@ -6,6 +6,6 @@ plugins {
 
 mainClassName = "ch.fhnw.algd1.sudoku.Sudoku"
 
-sourceCompatibility = 14
-targetCompatibility = 14
+sourceCompatibility = 17
+targetCompatibility = 17
 compileJava.options.encoding = 'UTF-8'
