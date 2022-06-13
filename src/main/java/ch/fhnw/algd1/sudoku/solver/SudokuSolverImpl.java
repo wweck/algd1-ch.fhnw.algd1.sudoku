@@ -32,7 +32,7 @@ public final class SudokuSolverImpl implements SudokuSolver {
 	 */
 	@Override
 	public boolean solved(SudokuModel model) {
-		// TODO start recursive search at square 0 or (0,0) resp.
+		// TODO (A1) start recursive search at square 0 or (0,0) resp.
 		return false;
 	}
 
@@ -44,8 +44,8 @@ public final class SudokuSolverImpl implements SudokuSolver {
 	 */
 	@Override
 	public int nofSolutions(SudokuModel model) {
-		// TODO start recursive enumeration of solutions, beginning at square 0 or
-		// (0,0) resp.
+		// TODO (A2) start recursive enumeration of solutions, beginning at square 0
+		// or (0,0) resp.
 		return 0;
 	}
 }
