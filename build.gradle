@@ -4,12 +4,12 @@ plugins {
 	id 'idea'
 }
 
-application {
-	mainClass = "ch.fhnw.algd1.sudoku.Sudoku"
-}
-
 java {
 	sourceCompatibility = JavaVersion.VERSION_21
 	targetCompatibility = JavaVersion.VERSION_21
 }
 compileJava.options.encoding = 'UTF-8'
+
+application {
+	mainClass = "ch.fhnw.algd1.sudoku.Sudoku"
+}
